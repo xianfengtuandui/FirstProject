@@ -1,0 +1,9 @@
+配置说明：
+          1.导入sql文件到mysql数据库
+          2.在eclipse中导入项目
+          3.打开目录到src，展开util包，编辑jdbcUtils，编辑jdbcUtils类中的两个私有变量，分别是String user、String password，前者为数据库名称，后者为数据库登录密码，修改对应到你自身的数据库，            配置即可完成。
+使用说明：
+          1.在打开项目时记得先打开数据库
+          2.打开就诊界面前需要打开服务器（server.ui.serverlayout.java）
+          3.登录就诊界面和管理界面都需要进入（doctorclient.ui.LoginUI.java、manage.ui.ManageUI.java）登录，可以在数据库中得到账号密码信息（实在不会就私聊我吧）
+本人邮箱：963309092@qq.com
